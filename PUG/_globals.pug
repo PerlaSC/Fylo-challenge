@@ -1,7 +1,7 @@
 -var navLinks = ['Features', 'Team', 'Sign In']
 -var title= ['Access your files, anywhere', 'Security you can trust', 'Real-time collaboration', 'Store any type of file']
 -var icon= ['icon-access-anywhere.svg', 'icon-security.svg', 'icon-collaboration.svg', 'icon-any-file.svg']
--var img =['']
+-var img =['profile-1.jpg', 'profile-2.jpg', 'profile-3.jpg']
 -var name = ['Satish Patel', 'Bruce McKenzie', 'Iva Boyd']
 -var position = ['Founder & CEO, Huddle', 'Founder & CEO, Huddle', 'Founder & CEO, Huddle']
 
@@ -18,4 +18,4 @@ mixin review(text, img, name, position)
     div.review__profile
       img(src="images/"+img, alt="")
       h4=name
-      p=Position
+      p=position
