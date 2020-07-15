@@ -9,5 +9,10 @@ mixin feature(icon, title, text)
     p=text
 
 mixin review(text, img, name, position)
-  article
-    
+  div.review__container
+    .review__text
+      p=text
+    div.review__profile
+      img(src="images/"+img, alt="")
+      h4=name
+      p=Position
