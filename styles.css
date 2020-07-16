@@ -1,0 +1,19 @@
+body {
+  background-color: #181f2a;
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.intro {
+  display: grid;
+  width: 50%;
+  margin: auto;
+}
+.intro img {
+  width: 100%;
+}

@@ -1,0 +1,21 @@
+//colors
+$dark: hsl(217, 28%, 15%);
+$maindark:hsl(218, 28%, 13%);
+$footerDark:hsl(216, 53%, 9%);
+$reviewDark:hsl(219, 30%, 18%);
+$cyan:hsl(176, 68%, 64%);
+$blue: hsl(198, 60%, 50%);
+$white: hsl(0, 0%, 100%);
+//fonst
+$fonttitles:'Raleway';
+$fontbody:'Open Sans';
+body {
+    background-color: $maindark;
+    font-size: 14px;
+    font-family: $fontbody;
+    color: $white;
+}
+
+li {
+    list-style: none;
+}
