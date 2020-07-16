@@ -34,14 +34,22 @@ main
   footer
     section.footer
       div.footer__logo
-        img(src="logo.svg", alt="")
+        img(src="images/logo.svg", alt="")
       .footer__location
-        img(src="icon-location.svg", alt="")
+        img(src="images/icon-location.svg", alt="")
         p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
       .footer__contact
-        img(src="icon-phone.svg", alt="")
-        p
-        img(src="icon-email.svg", alt="")
-        p
-      .footer__links
-      
+        img(src="images/icon-phone.svg", alt="")
+        p +1-543-123-4567
+        img(src="images/icon-email.svg", alt="")
+        p example@fylo.com
+      .footer__about
+        ul
+          each about in aboutlinks 
+            li= about
+      .footer__contact
+        ul
+          each contact in contactlinks
+           li= contact
+      .footer__social
+        img(src="images/icon-", alt="")
