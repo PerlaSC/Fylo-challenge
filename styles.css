@@ -11,9 +11,28 @@ li {
 
 .intro {
   display: grid;
-  width: 50%;
+  width: 90%;
   margin: auto;
+  text-align: center;
 }
 .intro img {
   width: 100%;
+}
+.intro button {
+  width: 75%;
+  margin: auto;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+.navbar img {
+  width: 50%;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
 }

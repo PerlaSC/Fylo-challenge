@@ -1,8 +1,13 @@
 .intro {
     display: grid;
-    width: 50%;
+    width: 90%;
     margin: auto;
+    text-align: center;
     img {
         width: 100%;
+    }
+    button {
+        width: 75%;
+        margin: auto;
     }
 }
