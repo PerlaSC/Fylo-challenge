@@ -24,9 +24,11 @@ li {
 .button {
     height: 3.5em;
     border-radius: 20px;
-    background: $blue;
-    color: white;
+    background: linear-gradient(135deg, $cyan, $blue);
+    color: $white;
     border: none;
     width: 65%;
     margin: auto;
+    outline: none;
+    cursor: pointer;
 }

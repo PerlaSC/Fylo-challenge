@@ -13,11 +13,13 @@ li {
 .button {
   height: 3.5em;
   border-radius: 20px;
-  background: #339ecc;
+  background: linear-gradient(135deg, #65e2d9, #339ecc);
   color: white;
   border: none;
   width: 65%;
   margin: auto;
+  outline: none;
+  cursor: pointer;
 }
 
 .intro {
