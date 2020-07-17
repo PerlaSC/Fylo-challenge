@@ -3,10 +3,21 @@ body {
   font-size: 14px;
   font-family: "Open Sans";
   color: white;
+  margin: 0;
 }
 
 li {
   list-style: none;
+}
+
+.button {
+  height: 3.5em;
+  border-radius: 20px;
+  background: #339ecc;
+  color: white;
+  border: none;
+  width: 65%;
+  margin: auto;
 }
 
 .intro {
@@ -18,21 +29,25 @@ li {
 .intro img {
   width: 100%;
 }
-.intro button {
-  width: 75%;
-  margin: auto;
-}
 
 .navbar {
   display: grid;
   grid-template-columns: 2fr 3fr;
+  padding: 1em;
 }
-.navbar img {
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
   width: 50%;
+}
+.navbar__logo img {
+  width: 100%;
 }
 .navbar ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 5px;
+  cursor: pointer;
 }

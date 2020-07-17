@@ -1,6 +1,8 @@
 include _globals.pug
 header.navbar
-  img(src="images/logo.svg", alt="")
-  ul
-    each navLink in navLinks
-      li=navLink
+  .navbar__logo
+    img(src="images/logo.svg", alt="")
+  .navbar__ul
+    ul
+      each navLink in navLinks
+        li=navLink

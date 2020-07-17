@@ -1,13 +1,21 @@
 .navbar {
     display: grid;
     grid-template-columns: 2fr 3fr;
-    img {
+    padding: 1em;
+    &__logo {
+        display: flex;
+        align-items: center;
+        justify-content: start;
         width: 50%;
+        img {
+            width: 100%;
+        }
     }
     ul {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 5px;
+        cursor: pointer;
     }
 }

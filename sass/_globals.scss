@@ -14,8 +14,19 @@ body {
     font-size: 14px;
     font-family: $fontbody;
     color: $white;
+    margin: 0;
 }
 
 li {
     list-style: none;
+}
+
+.button {
+    height: 3.5em;
+    border-radius: 20px;
+    background: $blue;
+    color: white;
+    border: none;
+    width: 65%;
+    margin: auto;
 }
