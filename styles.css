@@ -133,3 +133,11 @@ li {
   display: grid;
   grid-template-columns: 1fr;
 }
+.access__text {
+  text-align: center;
+  width: 100%;
+}
+.access__input {
+  display: flex;
+  justify-content: center;
+}
