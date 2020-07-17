@@ -1,0 +1,15 @@
+.feature {
+    padding-top: 5em;
+    display: grid;
+    grid-template-columns: 1fr;
+    article {
+        display: block;
+        justify-content: center;
+        width: 320px;
+        margin: 3em auto;
+        text-align: center;
+        img {
+            margin: auto;
+        }
+    }
+}
