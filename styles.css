@@ -97,7 +97,7 @@ li {
 .review {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 1em;
+  grid-gap: 1.5em;
 }
 .review__container {
   width: 80%;
