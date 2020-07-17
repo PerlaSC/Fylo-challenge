@@ -2,15 +2,25 @@
     margin: 5em auto;
     width: 80%;
     .container {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: block;
     }
     &__text {
         text-align: center;
         width: 100%;
     }
     &__input {
-        display: flex;
-        justify-content: center;
+        display: block;
+        input {
+            height: 3.5em;
+            border-radius: 20px;
+            border: none;
+            width: 250px;
+            margin: 1em auto;
+            outline: none;
+            text-align: center;
+        }
+        button {
+            margin: 1em auto;
+        }
     }
 }

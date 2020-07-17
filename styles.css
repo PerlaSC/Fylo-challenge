@@ -122,7 +122,6 @@ li {
   background-color: #202a3c;
   border-radius: 10px;
   padding: 0.8em;
-  width: 100%;
 }
 
 .access {
@@ -130,14 +129,24 @@ li {
   width: 80%;
 }
 .access .container {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: block;
 }
 .access__text {
   text-align: center;
   width: 100%;
 }
 .access__input {
-  display: flex;
-  justify-content: center;
+  display: block;
+}
+.access__input input {
+  height: 3.5em;
+  border-radius: 20px;
+  border: none;
+  width: 250px;
+  margin: 1em auto;
+  outline: none;
+  text-align: center;
+}
+.access__input button {
+  margin: 1em auto;
 }
