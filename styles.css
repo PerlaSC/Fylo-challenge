@@ -70,3 +70,16 @@ li {
 .feature article img {
   margin: auto;
 }
+
+.description {
+  margin: 5em auto;
+  width: 90%;
+}
+.description__img img {
+  width: 100%;
+}
+.description__text a {
+  color: #65e2d9;
+  border-bottom: 1px solid #65e2d9;
+  cursor: pointer;
+}
