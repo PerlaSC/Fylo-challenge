@@ -12,9 +12,16 @@
     &__profile {
         display: grid;
         grid-template-columns: 1fr 5fr;
+        grid-gap: 1em;
     }
-    .profile__img img {
-        width: 100%;
-        border-radius: 50%;
+    .profile {
+        &__img img {
+            width: 100%;
+            border-radius: 50%;
+        }
+        &__text h4,
+        &__text p {
+            margin: 2px;
+        }
     }
 }

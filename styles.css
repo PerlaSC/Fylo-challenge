@@ -7,6 +7,16 @@ body {
   overflow-x: hidden;
 }
 
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+}
+
 li {
   list-style: none;
 }
@@ -99,8 +109,12 @@ li {
 .review__profile {
   display: grid;
   grid-template-columns: 1fr 5fr;
+  grid-gap: 1em;
 }
 .review .profile__img img {
   width: 100%;
   border-radius: 50%;
+}
+.review .profile__text h4, .review .profile__text p {
+  margin: 2px;
 }
