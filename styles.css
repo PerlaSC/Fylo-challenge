@@ -98,23 +98,38 @@ li {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1.5em;
-}
-.review__container {
+  background-image: url("images/bg-quotes.png");
+  background-repeat: no-repeat;
+  padding-top: 3em;
   width: 80%;
   margin: auto;
-  background-color: #202a3c;
-  border-radius: 10px;
-  padding: 0.8em;
 }
 .review__profile {
   display: grid;
   grid-template-columns: 1fr 5fr;
   grid-gap: 1em;
 }
-.review .profile__img img {
+
+.profile__img img {
   width: 100%;
   border-radius: 50%;
 }
-.review .profile__text h4, .review .profile__text p {
+.profile__text h4, .profile__text p {
   margin: 2px;
+}
+
+.container {
+  background-color: #202a3c;
+  border-radius: 10px;
+  padding: 0.8em;
+  width: 100%;
+}
+
+.access {
+  margin: 5em auto;
+  width: 80%;
+}
+.access .container {
+  display: grid;
+  grid-template-columns: 1fr;
 }

@@ -1,0 +1,8 @@
+.access {
+    margin: 5em auto;
+    width: 80%;
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

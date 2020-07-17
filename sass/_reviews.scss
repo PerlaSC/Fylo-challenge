@@ -1,19 +1,19 @@
-.review {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1.5em;
-    &__container {
+    .review {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1.5em;
+        background-image: url('images/bg-quotes.png');
+        background-repeat: no-repeat;
+        padding-top: 3em;
         width: 80%;
         margin: auto;
-        background-color: $reviewDark;
-        border-radius: 10px;
-        padding: 0.8em;
+        &__profile {
+            display: grid;
+            grid-template-columns: 1fr 5fr;
+            grid-gap: 1em;
+        }
     }
-    &__profile {
-        display: grid;
-        grid-template-columns: 1fr 5fr;
-        grid-gap: 1em;
-    }
+    
     .profile {
         &__img img {
             width: 100%;
@@ -24,4 +24,10 @@
             margin: 2px;
         }
     }
-}
+    
+    .container {
+        background-color: $reviewDark;
+        border-radius: 10px;
+        padding: 0.8em;
+        width: 100%;
+    }
