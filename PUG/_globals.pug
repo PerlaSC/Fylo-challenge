@@ -18,6 +18,8 @@ mixin review(text, img, name, position)
     .review__text
       p=text
     div.review__profile
-      img(src="images/"+img, alt="")
-      h4=name
-      p=position
+      .profile__img
+        img(src="images/"+img, alt="")
+      .profile__text 
+        h4=name
+        p=position
