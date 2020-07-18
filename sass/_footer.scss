@@ -1,5 +1,8 @@
-.footer {
+footer {
     background-color: $footerDark;
+}
+
+.footer {
     display: grid;
     grid-template-columns: 1fr;
     padding: 15em 2em 2em;

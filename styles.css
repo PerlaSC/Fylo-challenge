@@ -156,8 +156,11 @@ li {
   margin: 1em auto;
 }
 
-.footer {
+footer {
   background-color: #0b1523;
+}
+
+.footer {
   display: grid;
   grid-template-columns: 1fr;
   padding: 15em 2em 2em;
