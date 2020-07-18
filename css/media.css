@@ -28,9 +28,80 @@
     grid-area: 2/2;
   }
   .footer__contact {
-    grid-area: 3/"";
+    grid-area: 3/2;
   }
   .footer__social {
     grid-area: 2/3;
+  }
+}
+@media (min-width: 1024px) {
+  .intro {
+    width: 60%;
+    grid-gap: 1em;
+  }
+  .intro p {
+    margin: 1em 2em;
+  }
+
+  .feature {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .description {
+    display: flex;
+  }
+  .description__img {
+    width: 45%;
+  }
+  .description__text {
+    width: 45%;
+  }
+
+  .review {
+    width: 90%;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .access {
+    width: 70%;
+    margin: auto;
+  }
+  .access .container {
+    width: 90%;
+    margin: auto;
+  }
+  .access__text {
+    padding: 2em;
+  }
+  .access__input {
+    grid-template-columns: 2fr 1fr;
+  }
+  .access__input input {
+    width: 90%;
+  }
+
+  .footer {
+    grid-template-columns: 3fr 2fr 1fr 1fr 2fr;
+    width: 90%;
+    margin: auto;
+  }
+  .footer__logo {
+    grid-area: 1/span 3;
+  }
+  .footer__location {
+    grid-area: 2/1;
+    grid-template-columns: 15% 85%;
+  }
+  .footer__phone {
+    grid-column: 2/2;
+  }
+  .footer__about {
+    grid-area: 2/3;
+  }
+  .footer__contact {
+    grid-area: 2/4;
+  }
+  .footer__social {
+    grid-area: 2/5;
   }
 }

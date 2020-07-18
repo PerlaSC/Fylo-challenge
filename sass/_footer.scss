@@ -7,6 +7,9 @@ footer {
     grid-template-columns: 1fr;
     padding: 15em 2em 2em;
     grid-gap: 2em;
+    ul {
+        padding: 0;
+    }
     &__location {
         display: grid;
         grid-template-columns: 20% 80%;
@@ -14,7 +17,7 @@ footer {
             margin-top: 1em;
         }
     }
-    &__contact {
+    &__phone {
         display: grid;
         grid-template-columns: 20% 80%;
         img {

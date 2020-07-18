@@ -166,6 +166,9 @@ footer {
   padding: 15em 2em 2em;
   grid-gap: 2em;
 }
+.footer ul {
+  padding: 0;
+}
 .footer__location {
   display: grid;
   grid-template-columns: 20% 80%;
@@ -173,11 +176,11 @@ footer {
 .footer__location img {
   margin-top: 1em;
 }
-.footer__contact {
+.footer__phone {
   display: grid;
   grid-template-columns: 20% 80%;
 }
-.footer__contact img {
+.footer__phone img {
   margin-top: 1em;
 }
 .footer__social {

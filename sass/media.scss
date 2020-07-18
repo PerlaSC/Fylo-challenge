@@ -24,7 +24,7 @@
             grid-area: 2/2
         }
         &__contact {
-            grid-area: 3/"";
+            grid-area: 3/2;
         }
         &__social {
             grid-area: 2/3;
@@ -32,4 +32,69 @@
     }
 }
 
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+    .intro {
+        width: 60%;
+        grid-gap: 1em;
+        p {
+            margin: 1em 2em;
+        }
+    }
+    .feature {
+        grid-template-columns: 1fr 1fr;
+    }
+    .description {
+        display: flex;
+        &__img {
+            width: 45%;
+        }
+        &__text {
+            width: 45%;
+        }
+    }
+    .review {
+        width: 90%;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .access {
+        width: 70%;
+        margin: auto;
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+        &__text {
+            padding: 2em;
+        }
+        &__input {
+            grid-template-columns: 2fr 1fr;
+            input {
+                width: 90%;
+            }
+        }
+    }
+    .footer {
+        grid-template-columns: 3fr 2fr 1fr 1fr 2fr;
+        width: 90%;
+        margin: auto;
+        &__logo {
+            grid-area: 1/span 3;
+        }
+        &__location {
+            grid-area: 2/1;
+            grid-template-columns: 15% 85%;
+        }
+        &__phone {
+            grid-column: 2/2;
+        }
+        &__about {
+            grid-area: 2/3
+        }
+        &__contact {
+            grid-area: 2/4;
+        }
+        &__social {
+            grid-area: 2/5;
+        }
+    }
+}
