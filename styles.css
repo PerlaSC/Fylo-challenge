@@ -116,6 +116,7 @@ li {
 }
 .profile__text h4, .profile__text p {
   margin: 2px;
+  font-size: 0.8em;
 }
 
 .container {
