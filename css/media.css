@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+  .intro {
+    width: 70%;
+  }
+
+  .description__text {
+    width: 70%;
+    margin: auto;
+  }
+
+  .review {
+    width: 60%;
+  }
+
+  .footer {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr;
+    width: 80%;
+    margin: auto;
+  }
+  .footer__logo {
+    grid-area: 1/span 3;
+  }
+  .footer__phone {
+    grid-column: 1;
+  }
+  .footer__about {
+    grid-area: 2/2;
+  }
+  .footer__contact {
+    grid-area: 3/"";
+  }
+  .footer__social {
+    grid-area: 2/3;
+  }
+}
