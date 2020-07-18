@@ -166,9 +166,6 @@ footer {
   padding: 15em 2em 2em;
   grid-gap: 2em;
 }
-.footer ul {
-  padding: 0;
-}
 .footer__location {
   display: grid;
   grid-template-columns: 20% 80%;
