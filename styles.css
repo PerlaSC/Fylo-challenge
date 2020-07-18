@@ -45,7 +45,7 @@ li {
 
 .navbar {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 3fr 3fr;
   padding: 1em;
 }
 .navbar__logo {
@@ -61,7 +61,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  padding: 0px;
   cursor: pointer;
 }
 
@@ -125,7 +125,7 @@ li {
 }
 
 .access {
-  margin: 7em auto;
+  margin: 5em auto;
   width: 80%;
   position: relative;
   padding-bottom: 10em;
@@ -133,7 +133,7 @@ li {
 .access .container {
   display: block;
   position: absolute;
-  top: 50%;
+  top: 30%;
 }
 .access__text {
   text-align: center;
@@ -161,4 +161,19 @@ li {
   display: grid;
   grid-template-columns: 1fr;
   padding: 15em 2em 2em;
+  grid-gap: 2em;
+}
+.footer__location {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.footer__location img {
+  margin-top: 1em;
+}
+.footer__contact {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.footer__contact img {
+  margin-top: 1em;
 }
