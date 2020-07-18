@@ -125,18 +125,23 @@ li {
 }
 
 .access {
-  margin: 5em auto;
+  margin: 7em auto;
   width: 80%;
+  position: relative;
+  padding-bottom: 10em;
 }
 .access .container {
   display: block;
+  position: absolute;
+  top: 50%;
 }
 .access__text {
   text-align: center;
   width: 100%;
 }
 .access__input {
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 .access__input input {
   height: 3.5em;
@@ -149,4 +154,11 @@ li {
 }
 .access__input button {
   margin: 1em auto;
+}
+
+.footer {
+  background-color: #0b1523;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 15em 2em 2em;
 }
